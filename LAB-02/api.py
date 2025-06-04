@@ -1,4 +1,4 @@
-from flask import Flask, request, jsonify
+from flask import Flask, request, jsonify, render_template, json
 from cipher.caesar import CaesarCipher
 from cipher.vigenere import VigenereCipher
 from cipher.railfence import RailFenceCipher
@@ -9,6 +9,8 @@ caesar_cipher = CaesarCipher()
 vigenere_cipher = VigenereCipher()
 railfence_cipher = RailFenceCipher()
 playfair_cipher = PlayFairCipher()
+
+
 
 @app.route("/api/caesar/encrypt", methods=["POST"])
 def caesar_encrypt():
