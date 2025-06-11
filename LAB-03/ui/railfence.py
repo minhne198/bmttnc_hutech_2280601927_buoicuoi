@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-# Form implementation generated from reading ui file '.\ui\caesar.ui'
+# Form implementation generated from reading ui file '.\ui\railfence.ui'
 #
 # Created by: PyQt5 UI code generator 5.15.11
 #
@@ -15,41 +15,41 @@ os.environ['QT_QPA_PLATFORM_PLUGIN_PATH'] = "../platforms"
 class Ui_MainWindow(object):
     def setupUi(self, MainWindow):
         MainWindow.setObjectName("MainWindow")
-        MainWindow.resize(638, 446)
+        MainWindow.resize(638, 421)
         self.centralwidget = QtWidgets.QWidget(MainWindow)
         self.centralwidget.setObjectName("centralwidget")
         self.txt_plain_text = QtWidgets.QTextEdit(self.centralwidget)
-        self.txt_plain_text.setGeometry(QtCore.QRect(210, 130, 381, 61))
+        self.txt_plain_text.setGeometry(QtCore.QRect(200, 110, 381, 61))
         self.txt_plain_text.setObjectName("txt_plain_text")
         self.txt_key = QtWidgets.QTextEdit(self.centralwidget)
-        self.txt_key.setGeometry(QtCore.QRect(210, 220, 381, 31))
+        self.txt_key.setGeometry(QtCore.QRect(200, 200, 381, 31))
         self.txt_key.setObjectName("txt_key")
         self.txt_cipher_text = QtWidgets.QTextEdit(self.centralwidget)
-        self.txt_cipher_text.setGeometry(QtCore.QRect(210, 280, 381, 61))
+        self.txt_cipher_text.setGeometry(QtCore.QRect(200, 260, 381, 61))
         self.txt_cipher_text.setObjectName("txt_cipher_text")
         self.label = QtWidgets.QLabel(self.centralwidget)
-        self.label.setGeometry(QtCore.QRect(30, 140, 71, 16))
+        self.label.setGeometry(QtCore.QRect(20, 120, 71, 16))
         self.label.setObjectName("label")
         self.label_2 = QtWidgets.QLabel(self.centralwidget)
-        self.label_2.setGeometry(QtCore.QRect(30, 230, 55, 16))
+        self.label_2.setGeometry(QtCore.QRect(20, 210, 55, 16))
         self.label_2.setObjectName("label_2")
         self.label_3 = QtWidgets.QLabel(self.centralwidget)
-        self.label_3.setGeometry(QtCore.QRect(30, 300, 91, 16))
+        self.label_3.setGeometry(QtCore.QRect(20, 280, 81, 16))
         self.label_3.setObjectName("label_3")
         self.btn_encrypt = QtWidgets.QPushButton(self.centralwidget)
-        self.btn_encrypt.setGeometry(QtCore.QRect(210, 360, 93, 28))
+        self.btn_encrypt.setGeometry(QtCore.QRect(200, 340, 93, 28))
         self.btn_encrypt.setObjectName("btn_encrypt")
         self.btn_decrypt = QtWidgets.QPushButton(self.centralwidget)
-        self.btn_decrypt.setGeometry(QtCore.QRect(500, 360, 93, 28))
+        self.btn_decrypt.setGeometry(QtCore.QRect(490, 340, 93, 28))
         self.btn_decrypt.setObjectName("btn_decrypt")
         self.label_4 = QtWidgets.QLabel(self.centralwidget)
-        self.label_4.setGeometry(QtCore.QRect(240, 10, 281, 41))
+        self.label_4.setGeometry(QtCore.QRect(180, 20, 301, 41))
         font = QtGui.QFont()
         font.setPointSize(20)
         self.label_4.setFont(font)
         self.label_4.setObjectName("label_4")
         self.label_5 = QtWidgets.QLabel(self.centralwidget)
-        self.label_5.setGeometry(QtCore.QRect(240, 70, 261, 21))
+        self.label_5.setGeometry(QtCore.QRect(180, 70, 261, 21))
         font = QtGui.QFont()
         font.setPointSize(12)
         self.label_5.setFont(font)
@@ -74,7 +74,7 @@ class Ui_MainWindow(object):
         self.label_3.setText(_translate("MainWindow", "Cipher Text:"))
         self.btn_encrypt.setText(_translate("MainWindow", "Encrypt"))
         self.btn_decrypt.setText(_translate("MainWindow", "Decrypt"))
-        self.label_4.setText(_translate("MainWindow", "CAESAR CIPHER"))
+        self.label_4.setText(_translate("MainWindow", "RAILFENCE CIPHER"))
         self.label_5.setText(_translate("MainWindow", "Mai Văn Pháp - 2280602278"))
 
 
